@@ -583,7 +583,9 @@ const Home = () => {
            
             <div className="text-center md:text-right">
               <p className="text-zinc-400 text-sm mb-2">Premium Café Experience</p>
-              <p className="text-zinc-600 text-xs">© 2024 Kabir Take a Sip. All rights reserved.</p>
+              <p className="text-zinc-600 text-xs">
+                © {new Date().getFullYear()} Kabir Take a Sip. All rights reserved.
+                </p>
             </div>
           </div>
         </div>
