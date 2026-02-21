@@ -180,7 +180,7 @@ const Home = () => {
            
             <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-tight">
               <span className="bg-gradient-to-r from-amber-400 via-orange-500 to-amber-600 bg-clip-text text-transparent">
-                Kabirr
+                KABIRR
               </span>
               <br />
               <span className="text-white">Take a Sip</span>
