@@ -64,7 +64,7 @@ const Home = () => {
               </div>
               <div>
                 <h1 className="text-2xl font-bold tracking-tight bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent">
-                  KABIR
+                  KABIRR
                 </h1>
                 <p className="text-xs text-zinc-400 tracking-widest">TAKE A SIP</p>
               </div>
@@ -180,7 +180,7 @@ const Home = () => {
            
             <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-tight">
               <span className="bg-gradient-to-r from-amber-400 via-orange-500 to-amber-600 bg-clip-text text-transparent">
-                Kabir
+                Kabirr
               </span>
               <br />
               <span className="text-white">Take a Sip</span>
@@ -575,7 +575,7 @@ const Home = () => {
               </div>
               <div>
                 <h3 className="text-xl font-bold bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent">
-                  KABIR
+                  KABIRR
                 </h3>
                 <p className="text-xs text-zinc-500 tracking-widest">TAKE A SIP</p>
               </div>
@@ -584,7 +584,7 @@ const Home = () => {
             <div className="text-center md:text-right">
               <p className="text-zinc-400 text-sm mb-2">Premium Café Experience</p>
               <p className="text-zinc-600 text-xs">
-                © {new Date().getFullYear()} Kabir Take a Sip. All rights reserved.
+                © {new Date().getFullYear()} Kabirr Take a Sip. All rights reserved.
                 </p>
             </div>
           </div>
