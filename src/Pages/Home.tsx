@@ -17,32 +17,32 @@ const Home = () => {
 
   const menuItems = {
     chai: [
-      { name: 'Masala Chai', price: 30, description: 'Traditional spiced tea with aromatic herbs', badge: 'Popular' },
-      { name: 'Adrak Chai', price: 35, description: 'Ginger-infused strong tea', badge: '' },
-      { name: 'Elaichi Chai', price: 35, description: 'Cardamom flavored premium tea', badge: '' },
-      { name: 'Kulhad Chai', price: 40, description: 'Traditional clay cup chai experience', badge: 'Signature' },
-      { name: 'Special Tandoori Chai', price: 50, description: 'Smoky tandoor-roasted flavor', badge: 'Chef Special' },
+      { name: 'Masala Chai', price: 10, description: 'Traditional spiced tea with aromatic herbs', badge: 'Popular' },
+      { name: 'Adrak Chai', price: 10, description: 'Ginger-infused strong tea', badge: '' },
+      { name: 'Elaichi Chai', price: 10, description: 'Cardamom flavored premium tea', badge: '' },
+      { name: 'Kulhad Chai', price: 20, description: 'Traditional clay cup chai experience', badge: 'Signature' },
+      // { name: 'Special Tandoori Chai', price: 50, description: 'Smoky tandoor-roasted flavor', badge: 'Chef Special' },
     ],
-    coffee: [
-      { name: 'Espresso', price: 60, description: 'Rich, bold Italian-style coffee', badge: '' },
-      { name: 'Cappuccino', price: 80, description: 'Creamy espresso with frothed milk', badge: 'Popular' },
-      { name: 'Cold Coffee', price: 90, description: 'Chilled coffee with ice cream', badge: '' },
-      { name: 'Cafe Latte', price: 85, description: 'Smooth espresso with steamed milk', badge: '' },
-      { name: 'Mocha', price: 100, description: 'Coffee with chocolate and cream', badge: 'Signature' },
-    ],
+    // coffee: [
+    //   { name: 'Espresso', price: 60, description: 'Rich, bold Italian-style coffee', badge: '' },
+    //   { name: 'Cappuccino', price: 80, description: 'Creamy espresso with frothed milk', badge: 'Popular' },
+    //   { name: 'Cold Coffee', price: 90, description: 'Chilled coffee with ice cream', badge: '' },
+    //   { name: 'Cafe Latte', price: 85, description: 'Smooth espresso with steamed milk', badge: '' },
+    //   { name: 'Mocha', price: 100, description: 'Coffee with chocolate and cream', badge: 'Signature' },
+    // ],
     snacks: [
-      { name: 'Kurkure', price: 20, description: 'Crunchy spicy snack', badge: '' },
-      { name: 'Lays Chips', price: 20, description: 'Classic potato chips', badge: 'Popular' },
+      { name: 'Kurkure', price: 10-20, description: 'Crunchy spicy snack', badge: '' },
+      { name: 'Lays Chips', price: 10-20, description: 'Classic potato chips', badge: 'Popular' },
       { name: 'Bingo Mad Angles', price: 20, description: 'Tangy triangle chips', badge: '' },
-      { name: 'Samosa (2 pcs)', price: 30, description: 'Crispy fried pastry with filling', badge: '' },
-      { name: 'Maggi', price: 40, description: 'Hot noodles with spices', badge: 'Popular' },
+      { name: 'Cristos', price: 30, description: 'Crispy fried pastry with filling', badge: '' },
+      // { name: 'Maggi', price: 40, description: 'Hot noodles with spices', badge: 'Popular' },
     ],
     drinks: [
-      { name: 'Coca Cola', price: 40, description: 'Chilled classic cola', badge: '' },
-      { name: 'Sprite', price: 40, description: 'Refreshing lemon-lime soda', badge: '' },
-      { name: 'Thumbs Up', price: 40, description: 'Strong fizzy drink', badge: '' },
-      { name: 'Fresh Lime Soda', price: 50, description: 'Homemade refreshing drink', badge: 'Fresh' },
-      { name: 'Iced Tea', price: 60, description: 'Chilled flavored tea', badge: '' },
+      { name: 'Coca Cola', price: 30-100, description: 'Chilled classic cola', badge: '' },
+      { name: 'Sprite', price: 30-100, description: 'Refreshing lemon-lime soda', badge: '' },
+      { name: 'Thumbs Up', price: 30-100, description: 'Strong fizzy drink', badge: '' },
+      { name: 'Paper-boat', price: 10-30, description: 'Refreshing drink', badge: 'Fresh' },
+      // { name: 'Iced Tea', price: 60, description: 'Chilled flavored tea', badge: '' },
     ]
   };
 
