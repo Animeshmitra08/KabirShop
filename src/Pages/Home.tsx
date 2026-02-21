@@ -31,17 +31,17 @@ const Home = () => {
     //   { name: 'Mocha', price: 100, description: 'Coffee with chocolate and cream', badge: 'Signature' },
     // ],
     snacks: [
-      { name: 'Kurkure', price: 10-20, description: 'Crunchy spicy snack', badge: '' },
-      { name: 'Lays Chips', price: 10-20, description: 'Classic potato chips', badge: 'Popular' },
+      { name: 'Kurkure', price: '5-10-20', description: 'Crunchy spicy snack', badge: '' },
+      { name: 'Lays Chips', price: '5-10-20', description: 'Classic potato chips', badge: 'Popular' },
       { name: 'Bingo Mad Angles', price: 20, description: 'Tangy triangle chips', badge: '' },
       { name: 'Cristos', price: 30, description: 'Crispy fried pastry with filling', badge: '' },
       // { name: 'Maggi', price: 40, description: 'Hot noodles with spices', badge: 'Popular' },
     ],
     drinks: [
-      { name: 'Coca Cola', price: 30-100, description: 'Chilled classic cola', badge: '' },
-      { name: 'Sprite', price: 30-100, description: 'Refreshing lemon-lime soda', badge: '' },
-      { name: 'Thumbs Up', price: 30-100, description: 'Strong fizzy drink', badge: '' },
-      { name: 'Paper-boat', price: 10-30, description: 'Refreshing drink', badge: 'Fresh' },
+      { name: 'Coca Cola', price: '30-100', description: 'Chilled classic cola', badge: '' },
+      { name: 'Sprite', price: '30-100', description: 'Refreshing lemon-lime soda', badge: '' },
+      { name: 'Thumbs Up', price: '30-100', description: 'Strong fizzy drink', badge: '' },
+      { name: 'Paper-boat', price: '10-30', description: 'Refreshing drink', badge: 'Fresh' },
       // { name: 'Iced Tea', price: 60, description: 'Chilled flavored tea', badge: '' },
     ]
   };
@@ -298,7 +298,7 @@ const Home = () => {
           </div>
 
           {/* Coffee Menu */}
-          <div className="mb-20">
+          {/* <div className="mb-20">
             <div className="flex items-center gap-4 mb-8">
               <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-amber-600 rounded-lg flex items-center justify-center">
                 <Coffee className="w-6 h-6 text-white" />
@@ -323,7 +323,7 @@ const Home = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
 
           {/* Snacks Menu */}
           <div className="mb-20">
@@ -525,7 +525,7 @@ const Home = () => {
                 <div className="mt-auto bg-gradient-to-br from-zinc-900 to-black border border-zinc-800 p-6 rounded-2xl flex items-center justify-between">
                     <span className="text-zinc-400 font-medium">Follow our journey</span>
                     <div className="flex gap-3">
-                    <a href="#" className="p-2 bg-zinc-800 rounded-lg hover:text-amber-500 transition-colors"><Instagram size={20}/></a>
+                    <a href="https://www.instagram.com/shardaprasadkaushik?igsh=bmdneXdxMGptejJz" className="p-2 bg-zinc-800 rounded-lg hover:text-amber-500 transition-colors"><Instagram size={20}/></a>
                     <a href="#" className="p-2 bg-zinc-800 rounded-lg hover:text-amber-500 transition-colors"><Facebook size={20}/></a>
                     </div>
                 </div>
