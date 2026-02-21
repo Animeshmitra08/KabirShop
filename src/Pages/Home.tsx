@@ -525,7 +525,7 @@ const Home = () => {
                 <div className="mt-auto bg-gradient-to-br from-zinc-900 to-black border border-zinc-800 p-6 rounded-2xl flex items-center justify-between">
                     <span className="text-zinc-400 font-medium">Follow our journey</span>
                     <div className="flex gap-3">
-                    <a href="https://www.instagram.com/shardaprasadkaushik?igsh=bmdneXdxMGptejJz" className="p-2 bg-zinc-800 rounded-lg hover:text-amber-500 transition-colors"><Instagram size={20}/></a>
+                    <a href="https://www.instagram.com/shardaprasadkaushik?igsh=bmdneXdxMGptejJz"  target="_blank"  rel="noopener noreferrer" className="p-2 bg-zinc-800 rounded-lg hover:text-amber-500 transition-colors"><Instagram size={20}/></a>
                     <a href="#" className="p-2 bg-zinc-800 rounded-lg hover:text-amber-500 transition-colors"><Facebook size={20}/></a>
                     </div>
                 </div>
